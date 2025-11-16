@@ -22,7 +22,7 @@ mysql:
 # Backend Configuration
 # =====================
 backend:
-  image: suhas15234/k88-backend:latest
+  image: suhas15234/var-backend:latest
   replicas: 2
   port: 2000
   nodePort: 30025
@@ -43,7 +43,7 @@ backend:
 # Frontend Configuration
 # =====================
 frontend:
-  image: suhas15234/k88-frontend:latest
+  image: suhas15234/var-frontend:latest
   replicas: 2
   port: 80
   nodePort: 30080
