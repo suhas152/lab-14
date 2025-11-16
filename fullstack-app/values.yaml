@@ -12,7 +12,7 @@ ingress:
 # =====================
 mysql:
   image: mysql:8.0
-  rootPassword: password
+  rootPassword: root
   database: projectdb
   service:
     port: 3306
